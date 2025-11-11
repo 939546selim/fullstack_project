@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Manager App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>User Manager App (CRUD)</h1>
+
+  <div class="container">
+
+    <!-- Add User -->
+    <h3>Add New User</h3>
+    <input id="name" type="text" placeholder="Name" />
+    <input id="age" type="number" placeholder="Age" />
+    <input id="city" type="text" placeholder="City" />
+    <button id="addUser">Add</button>
+
+    <hr>
+
+    <!-- Update User -->
+    <h3>Update User</h3>
+    <input id="updateId" type="number" placeholder="User ID" />
+    <input id="updateName" type="text" placeholder="New Name" />
+    <button id="updateUser">Update</button>
+
+    <hr>
+
+    <!-- Delete User -->
+    <h3>Delete User</h3>
+    <input id="deleteId" type="number" placeholder="User ID" />
+    <button id="deleteUser">Delete</button>
+
+    <hr>
+
+    <button id="showAll">Show All Users</button>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
